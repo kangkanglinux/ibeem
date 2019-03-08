@@ -1,0 +1,19 @@
+# Summary
+
+* [1.介绍](README.md)
+* [2.环境准备](chapter1.md)
+* [3.登录注册](3deng-lu-zhu-ce.md)
+  * [3.1 登录](3deng-lu-zhu-ce/31-deng-lu.md)
+  * [3.2 注册](3deng-lu-zhu-ce/32-zhu-ce.md)
+  * [3.3 忘记密码](3deng-lu-zhu-ce/33-wang-ji-mi-ma.md)
+* [4.首页](shou-ye.md)
+  * [4.1 建筑信息](shou-ye/41-jian-zhu-xin-xi-zhan-shi.md)
+  * [4.2 设备信息](shou-ye/42-she-bei-xin-xi.md)
+  * [4.3 问卷信息](shou-ye/43-wen-juan-xin-xi.md)
+* [5.设备](5she-bei.md)
+  * [5.1 设备列表](5she-bei/51-she-bei-lie-biao.md)
+  * [5.2 设备下载](5she-bei/52-she-bei-xia-zai.md)
+  * [5.3 设备对比](5she-bei/53-she-bei-dui-bi.md)
+  * [5.4 设备查看](5she-bei/54-she-bei-cha-kan.md)
+* [6.问卷](6wen-juan.md)
+
