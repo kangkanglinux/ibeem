@@ -50,7 +50,7 @@ response:
                         "level"                  : "无星级"
                         "longitude"              : 116.46
                         "name"                   : "1111"
-                        "number"                 : null
+                        "number"                 : ""
                         "participantOrganization": ""
                         "people"                 : ""
                         "projectTime"            : 0
@@ -71,6 +71,8 @@ response:
                     "messg": "系统错误"
                 }
 ```
+
+> _**www.ibeem.cn/project/single/building/save\_base\_info      method: POST        //保存建筑基本信息**_
 
 
 
