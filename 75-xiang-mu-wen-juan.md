@@ -34,6 +34,8 @@ response:
 > _**www.ibeem.cn/project/single/survey/bind             method:POST           //绑定问卷**_
 
 ```js
+//搜索该项目能绑定的问卷
+
 request body parameter:
                 {
                     "projectID"       : 111   //项目ID
