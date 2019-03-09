@@ -39,7 +39,24 @@ response:
                 }
 ```
 
-> www.ibeem.cn/survey/getDimension      method: POST         //获取问卷分析尺度
+> _**www.ibeem.cn/survey/getDimension           method: POST         //获取问卷分析尺度**_
+
+```js
+request body parameter:
+                {
+                    "surveyID"           :  249   //问卷ID
+                }
+
+response:
+         success: 
+                {
+                    "status"               :  200
+
+
+                }
+            fail: 
+                ""   //错误信息
+```
 
 
 
