@@ -33,6 +33,8 @@ response:
 > _**www.ibeem.cn/survey/download/answer         method: POST        //获取问卷答卷**_
 
 ```js
+/survey/download/question
+
 request body parameter:
                 //服务器将从cookie中获取用户ID
 
@@ -40,6 +42,7 @@ response:
          success: 
                 {
                     "code" :  200
+                    "createTime": ""  //答卷创建时间
                     "list" :  [{
                         "id"          : 216    //问卷ID
                         "count"       : 0      //答卷数量
