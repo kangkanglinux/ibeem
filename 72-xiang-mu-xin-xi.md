@@ -16,7 +16,8 @@ response:
                         "id"          : 157    //项目ID
                         "decribe"     : ""     //项目描述
                         "image"       : ""     //项目图片地址
-                        "name"        : ""     //项目名称                        
+                        "name"        : ""     //项目名称
+                        "peopleCount" : ""     //项目下用户数                        
                     }
                 }
             fail: 
