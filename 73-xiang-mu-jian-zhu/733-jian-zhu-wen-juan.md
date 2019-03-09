@@ -64,10 +64,6 @@ response:
          success: 
                 {
                     "code" :  200
-                    "list" :  [{
-                        "id"          : ""     //问卷ID
-                        "title"       : ""     //问卷标题
-                    }...]
                 }
             fail: 
                 {
