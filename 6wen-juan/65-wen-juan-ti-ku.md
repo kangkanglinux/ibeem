@@ -5,9 +5,6 @@
 ```js
 request body parameter:
                 //服务器将从cookie中获取用户ID
-                {
-                    "survey" :  ""       //问卷内容
-                }
 
 response:
          success: 
