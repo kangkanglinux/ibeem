@@ -124,5 +124,57 @@ response:
                 }
 ```
 
+> _**www.ibeem.cn/project/single/building/save\_design\_info   method: POST       //保存关键设计评价指标**_
+
+```js
+request body parameter:
+                {
+                    "climaticProvince"       : "严寒"
+                    "image"                  : ""
+                    "city"                   : ""
+                    "latitude"               : 39.92
+                    "longitude"              : 116.46
+                    "buildingClass"          : 1
+                    "id":                    : 7025
+                    "unit"                   : ""
+                    "subject"                : ""
+                    "people"                 : ""
+                    "contact"                : ""
+                    "name"                   : ""
+                    "type"                   : ""
+                    "address"                : ""
+                    "province"               : ""
+                    "applicationUnit"        : ""
+                    "participantOrganization": ""
+                    "time"                   : ""
+                    "adoptionStandard"       : ""
+                    "level"                  : "无星级"
+                    "identifying"            : ""
+                    "projectTime"            : 1970-01-01
+                    "completionTime"         : 1970-01-01
+                    "serviceTime"            : 1970-01-01
+                    "buildingArea"           : ""
+                    "buildingOrientation"    : ""
+                    "remark"                 : ""
+                    "aca"                    : ""
+                    "height"                 : ""
+                    "buildingProperty"       : ""
+                    "cun"                    : ""
+                    "countNumber"            : ""
+                    "number"                 : ""
+                }
+
+response:
+         success: 
+                {
+                    "code" :  200
+                }
+            fail: 
+                {
+                    "code" :  1005
+                    "messg": "系统错误"
+                }
+```
+
 
 
