@@ -36,7 +36,9 @@ response:
 //获取问卷答题
 
 request body parameter:
-                //服务器将从cookie中获取用户ID
+                {
+                    "surveyID"      :  249   //问卷ID
+                }
 
 response:
          success: 
