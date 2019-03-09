@@ -52,5 +52,31 @@ response:
                 }
 ```
 
+> _**www.ibeem.cn/project/single/member/add          method: POST        //添加成员**_
+
+```js
+request body parameter:
+                {
+                    "projectID"       : 111       //项目ID
+                    "userID"          : ""        //用户ID
+                }
+
+response:
+         success: 
+                {
+                    "code" :  200
+                    "arrayList" :  [{
+                        "id"          :  12       //成员ID
+                        "name"        :  ""       //成员名称
+                        "portrait"    :  ""       //成员肖像
+                    }...]
+                }
+            fail: 
+                {
+                    "code" :  1005
+                    "messg": "系统错误"
+                }
+```
+
 
 
