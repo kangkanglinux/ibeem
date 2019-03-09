@@ -12,8 +12,7 @@ response:
          success: 
                 {
                     "code" :  200
-                    "list" :  [{
-                        "list": [{
+                    "list": [{
                         "id" : "" //设备ID
                         "deviceName" : "" //设备名称
                         "userName" : "" //设备使用者名称
@@ -31,11 +30,10 @@ response:
                         "cname" : "" //设备绑定测点名称
                         "bname" : "" //设备绑定建筑名称
                         }..]
-                        "pageNo" : "" //所在页数
-                        "amount" : 600 //设备总数量
-                        "maxPage" : 12 //总页数
-                        "pageSize": 50 //每页展示设备数
-                    }...]
+                    "pageNo" : "" //所在页数
+                    "amount" : 600 //设备总数量
+                    "maxPage" : 12 //总页数
+                    "pageSize": 50 //每页展示设备数
                 }
             fail: 
                 {
@@ -43,8 +41,6 @@ response:
                     "messg": "系统错误"
                 }
 ```
-
-
 
 > _**www.ibeem.cn/device/status            method: POST        //获取设备状态**_
 
