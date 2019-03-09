@@ -287,5 +287,25 @@ response:
                 }
 ```
 
+> _**www.ibeem.cn/project/single/building/save\_indoor\_info      method: POST       //保持室内环境措施数据**_
+
+```js
+request body parameter:
+                {
+                    "buildingID"      : 7025   //建筑ID
+                }
+
+response:
+         success: 
+                {
+                    "code" :  200
+                }
+            fail: 
+                {
+                    "code" :  1005
+                    "messg": "系统错误"
+                }
+```
+
 
 
