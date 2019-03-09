@@ -16,24 +16,13 @@ response:
          success: 
                 {
                     "code"               :  200
-                    "createTime"         :  ""    //问卷创建时间
-                    "introduction"       :  ""    //问卷描述
-                    "pagingNum"          :  0     //页数
-                    "pagingType"         :  1
-                    "surveyID"           :  249   //问卷ID
-                    "title"              :  ""    //问卷标题
-                    "list" :  [{
-                        "order"          :  1
-                        "title"          :  ""
-                        "questionList": [{
-                            "questionID" : 451    //答题ID
-                            "required"   : 0
-                            "sequence"   : 1      //答题序列号
-                            "setting"    : ""     //答题内容
-                            "title"      : ""     //答题标题
-                            "type"       : 1      //答题类型
+                    "survey"             :  {
+                        "introduction"   :  ""   //问卷介绍
+                        "peoplecount"    :  41   //答题人数
+                        "title"          :  ""   //问卷标题
+                        "paragraph"      :  [{
                         }...]
-                    }...]
+                    }
 
                 }
             fail: 
