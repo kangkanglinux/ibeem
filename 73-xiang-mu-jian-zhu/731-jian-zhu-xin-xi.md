@@ -13,11 +13,11 @@ response:
                 {
                     "code" :  200
                     "building" :  {
-                        "aca"                    : null
-                        "address"                : null
+                        "aca"                    : ""
+                        "address"                : ""
                         "adoptionStandard"       : ""
                         "applicationUnit"        : ""
-                        "buildingArea"           : null
+                        "buildingArea"           : ""
                         "buildingClass"          : 1
                         "buildingOrientation"    : ""
                         "buildingProperty"       : ""
