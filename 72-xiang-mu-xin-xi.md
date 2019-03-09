@@ -87,7 +87,28 @@ response:
                 }
 ```
 
-> www.ibeem.cn/project/single/update     method: POST     //项目信息跟新
+> _**www.ibeem.cn/project/single/update     method: POST     //项目信息跟新**_
+
+```js
+request body parameter:
+                {
+                    "projectID"       :  157   //项目ID
+                    "name"            :  ""    //项目名称
+                    "describe"        :  ""    //项目介绍
+                    "image"           :  ""    //项目图片路径
+                }
+
+response:
+         success: 
+                {
+                    "code" :  200
+                }
+            fail: 
+                {
+                    "code" :  1005
+                    "messg": "系统错误"
+                }
+```
 
 
 
