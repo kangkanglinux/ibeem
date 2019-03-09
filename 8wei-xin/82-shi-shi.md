@@ -5,25 +5,26 @@
 ```js
 request body parameter:
                 {
-                    "deviceId"        : ""     //设备ID     
+                    "deviceId"          : ""     //设备ID     
                 }
 
 response:
          success: 
                 {
-                    "status" :  0
+                    "status"            :  0 
+                    "zt"                :  true  //设备状态
                     "devicelist" :  [{
-                        "id"          : 216    //设备ID
-                        "name"        : ""     //设备名称
-                        "address"     : ""     //设备地址
-                        "latitude"    : 111.11 //纬度
-                        "longitude"   : 40.0   //经度
-                        "onlineStatus": ""     //设备在线状态                      
+                        "tem"           : 21.6   //温度
+                        "hum"           : 21     //湿度
+                        "pm"            : 21     //pm25
+                        "co2"           : 21     //co2
+                        "lightIntensity": 21     //光照                    
                     }...]
                 }
             fail: 
                 {
-                    "status" :  1005
+                    "status" :  -1
+                    "meg"    :  "未知错误"
                 }
 ```
 
