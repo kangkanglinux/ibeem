@@ -5,7 +5,7 @@
 ```js
 request body parameter:
                 {
-                    "buildingID"       :  7027   //建筑ID
+                    "buildingID"      :  7027   //建筑ID
                 }
 
 response:
@@ -13,18 +13,11 @@ response:
                 {
                     "code" :  200
                     "list" :  [{
-                        "answerTime"   : ""       //答卷创建时间
-                        "deviceID"     : ""       //绑定设备ID
-                        "deviceName"   : ""       //绑定设备名称
-                        "deviceStatus" : ""       //绑定设备状态
-                        "endTime"      : ""       //测点结束时间
-                        "id"           : 161      //测点ID
-                        "image"        : ""       //测点图片地址
-                        "name"         : "123"    //测点名称
-                        "positionDesc" : "123"    //测点描述
-                        "startTime"    : ""       //测点开始时间
-                        "surveyID"     : ""       //绑定问卷时间 
-                        "surveyTitle"  : ""       //绑定问卷标题 
+                        "id"          : ""     //问卷ID
+                        "title"       : ""     //问卷标题
+                        "introduction": ""     //问卷介绍 
+                        "name"        : ""     //问卷名称
+                        "count"       : 12     //问卷答卷数
                     }...]
                 }
             fail: 
