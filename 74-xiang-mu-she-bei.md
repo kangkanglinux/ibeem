@@ -13,10 +13,22 @@ response:
                 {
                     "code" :  200
                     "list" :  [{
-                        "id"          : 216    //项目ID
-                        "decribe"     : ""     //项目描述
-                        "image"       : ""     //项目图片地址
-                        "name"        : ""     //项目名称                        
+                        "address"    : "北京市海淀区中关村东路6-3号"
+                        "bname"      : ""
+                        "cname"      : ""
+                        "description": "测试详细地址"
+                        "gname"      : "管理员"
+                        "id"         : 3
+                        "latitude"   : 40.014392
+                        "longitude"  : 116.34002229355
+                        "memo"       : "测试详细信息"
+                        "name"       : "L00001"
+                        "ownerName"  : "管理员"
+                        "pname"      : "123"
+                        "status"     : "0"
+                        "type"       : "coclean"
+                        "userName"   : ""
+                        "warning"    : ""                     
                     }...]
                 }
             fail: 
