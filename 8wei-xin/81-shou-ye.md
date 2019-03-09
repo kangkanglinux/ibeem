@@ -1,6 +1,6 @@
 ### 首页
 
-> _**www.ibeem.cn/weixin/device/list               method: POST             //获取设备列表**_
+> _**www.ibeem.cn/weixin/device/list                       method: POST             //获取设备列表**_
 
 ```js
 request body parameter:
@@ -24,6 +24,8 @@ response:
                     "status" :  1005
                 }
 ```
+
+> _**www.ibeem.cn/weixin/device/addAttention        method: POST        //关注设备**_
 
 
 
