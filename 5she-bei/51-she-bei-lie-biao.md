@@ -52,13 +52,13 @@ request body parameter:
 response:
          success: 
                 {
-                    "code"   :  200
-                    "status" :  true || false  //设备状态(coclean和ibeem设备都是从设备服务器获取状态)
+                    "code"    :  200
+                    "status"  :  true || false  //设备状态(coclean和ibeem设备都是从设备服务器获取状态)
                 }
             fail: 
                 {
-                    "code" :  1005
-                    "messg": "系统错误"
+                    "code"    :  1005
+                    "messg"   :  "系统错误"
                 }
 ```
 
