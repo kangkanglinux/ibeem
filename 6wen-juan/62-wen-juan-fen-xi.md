@@ -44,18 +44,14 @@ response:
 ```js
 request body parameter:
                 {
-                    "surveyID"           :  249   //问卷ID
+                    "surveyID"   :  249   //问卷ID
                 }
 
 response:
          success: 
-                {
-                    "status"               :  200
-
-
-                }
+                "status": 200
             fail: 
-                ""   //错误信息
+                "status": 404
 ```
 
 
