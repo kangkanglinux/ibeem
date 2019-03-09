@@ -84,9 +84,9 @@ response:
 ```js
 query parameter:
                 {
-                    "projectID"             :  ""    //项目ID
+                    "projectID"  :  ""   //项目ID
                     "type"       :  ""   //建筑类型
-                    ""
+                    "filepath"   :  ""   //模板路径
                 }
 
 response:
@@ -98,6 +98,21 @@ response:
                 {
                     "code" :  1005
                     "messg": "系统错误"
+                }
+                ||
+                {
+                    "code" : 1001
+                    "messg": "模板数据不对"
+                }
+                ||
+                {
+                    "code" : 1000
+                    "messg": "模板没有数据"
+                }
+                ||
+                {
+                    "code" : 1003
+                    "messg": "建筑名称必须填"
                 }
 ```
 
