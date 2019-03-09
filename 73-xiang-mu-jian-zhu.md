@@ -79,5 +79,27 @@ response:
                 }
 ```
 
+> _**www.ibeem.cn/project/single/building/import      method: POST      //导入建筑**_
+
+```js
+query parameter:
+                {
+                    "projectID"             :  ""    //项目ID
+                    "type"       :  ""   //建筑类型
+                    ""
+                }
+
+response:
+         success: 
+                {
+                    "code" :  200
+                }
+            fail: 
+                {
+                    "code" :  1005
+                    "messg": "系统错误"
+                }
+```
+
 
 
