@@ -12,7 +12,7 @@ response:
          success: 
                 {
                     "code" :  200
-                    "project" :  {
+                    "energyConsumption" :  {
                         "id"          : 157    //项目ID
                         "decribe"     : ""     //项目描述
                         "image"       : ""     //项目图片地址
