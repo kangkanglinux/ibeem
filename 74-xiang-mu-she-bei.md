@@ -69,17 +69,15 @@ response:
 ```js
 //添加设备
 request body parameter:
-                //服务器将从cookie中获取用户ID
-
+                {
+                    "projectID":  123   //项目ID
+                    "ids"      :  "1,2" //设备ID
+                }
 
 response:
          success: 
                 {
                     "code" :  200
-                    "list" :  [{
-                        "id"   : 10    //设备ID
-                        "name" : ""    //设备名称
-                    }...]
                 }
             fail: 
                 {
