@@ -8,5 +8,7 @@
 
 * _**www.ibeem.cn/survey?item=increase         method: GET               新建问卷**_
 
+* _**www.ibeem.cn/survey?item=library            method: GET               问卷题库**_
+
 
 
