@@ -52,5 +52,30 @@ response:
                 }
 ```
 
+> _**www.ibeem.cn/project/single/delete      method: POST     //删除项目**_
+
+```js
+request body parameter:
+                {
+                    "projectID"     : ""     //项目ID
+                }
+
+response:
+         success: 
+                {
+                    "code" :  200
+                }
+            fail: 
+                {
+                    "code" :  1005
+                    "messg": "系统错误"
+                }
+                ||
+                {
+                    "code" :  1001
+                    "messg":  "项目名重复"
+                }
+```
+
 
 
