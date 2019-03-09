@@ -37,5 +37,5 @@
   * [8.1 首页](8wei-xin/81-shou-ye.md)
   * [8.2 实时](8wei-xin/82-shi-shi.md)
   * [8.3 设备](8wei-xin/83-she-bei.md)
-  * 8.4 历史
+  * [8.4 历史](8wei-xin/84-li-shi.md)
 
