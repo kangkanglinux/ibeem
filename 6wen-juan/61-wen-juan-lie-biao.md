@@ -42,7 +42,7 @@ response:
          success: 
                 {
                     "code" :  200
-                    "createTime": ""  //答卷创建时间
+                    "createTime": ""  //答题创建时间
                     "list" :  [{
                         "id"          : 216    //问卷ID
                         "count"       : 0      //答卷数量
