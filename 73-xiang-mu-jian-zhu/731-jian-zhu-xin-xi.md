@@ -12,14 +12,58 @@ response:
          success: 
                 {
                     "code" :  200
-                    "list" :  [{
-                        "id"          : 1570    //建筑ID
-                        "latitude"    : 39.92   //建筑纬度
-                        "longitude"   : 116.46  //建筑经度
-                        "name"        : ""      //建筑名称
-                        "type"        : ""      //建筑类别
-                        "city"        : ""      //建筑城市                     
-                    }...]
+                    "building" :  {
+                        "aca"                    : null
+                        "address"                : null
+                        "adoptionStandard"       : ""
+                        "applicationUnit"        : ""
+                        "buildingArea"           : null
+                        "buildingClass"          : 1
+                        "buildingOrientation"    : ""
+                        "buildingProperty"       : ""
+                        "city"                   : "北京"
+                        "climaticProvince"       : "严寒"
+                        "completionTime"         : 0
+                        "contact"                : ""
+                        "countNumber"            : ""
+                        "createdOn"              : "2019-03-02T17:39:46.000Z"
+                        "cun"                    : ""
+                        "d2"                     : ""
+                        "d9"                     : ""
+                        "d13"                    : ""
+                        "d15"                    : ""
+                        "d16"                    : ""
+                        "d17"                    : ""
+                        "d21"                    : ""
+                        "d22"                    : ""
+                        "d25"                    : ""
+                        "d27"                    : ""
+                        "designIndicators"       : ""
+                        "ecm"                    : ""
+                        "height"                 : ""
+                        "id"                     : 7025
+                        "identifying"            : ""
+                        "iepd"                   : ""
+                        "image"                  : ""
+                        "indoorEnvironment"      : ""
+                        "latitude"               : 39.92
+                        "level"                  : "无星级"
+                        "longitude"              : 116.46
+                        "name"                   : "1111"
+                        "number"                 : null
+                        "participantOrganization": ""
+                        "people"                 : ""
+                        "projectTime"            : 0
+                        "province"               : ""
+                        "remark"                 : ""
+                        "serviceTime"            : 0
+                        "subject"                : ""
+                        "time"                   : ""
+                        "type"                   : "办公"
+                        "unit"                   : ""
+                        "updatedOn"              : "2019-03-02T17:46:44.000Z"
+                        "waterSavingDesign"      : ""
+                    }
                 }
             fail: 
                 {
