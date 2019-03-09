@@ -13,15 +13,15 @@ request body parameter:
 response:
          success: 
                 {
-                    "result"    : "success"
-                    "deviceId" : ""   //设备ID
-                    "deviceName" : ""  //设备名称
+                    "result"       : "success"
+                    "deviceId"     : ""        //设备ID
+                    "deviceName"   : ""        //设备名称
                     "data"  : {
-                        "tem" : 21.6 //温度
-                        "hum" : 21 //湿度
-                        "pm" : 21 //pm25
-                        "co2" : 21 //co2
-                        "lightIntensity": 21 //光照   
+                        "tem"           : 21.6 //温度
+                        "hum"           : 21   //湿度
+                        "pm"            : 21   //pm25
+                        "co2"           : 21   //co2
+                        "lightIntensity": 21   //光照   
                     }
                 }
             fail: 
