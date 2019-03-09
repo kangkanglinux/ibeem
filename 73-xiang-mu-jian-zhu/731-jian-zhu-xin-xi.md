@@ -129,39 +129,30 @@ response:
 ```js
 request body parameter:
                 {
-                    "climaticProvince"       : "严寒"
-                    "image"                  : ""
-                    "city"                   : ""
-                    "latitude"               : 39.92
-                    "longitude"              : 116.46
-                    "buildingClass"          : 1
-                    "id":                    : 7025
-                    "unit"                   : ""
-                    "subject"                : ""
-                    "people"                 : ""
-                    "contact"                : ""
-                    "name"                   : ""
-                    "type"                   : ""
-                    "address"                : ""
-                    "province"               : ""
-                    "applicationUnit"        : ""
-                    "participantOrganization": ""
-                    "time"                   : ""
-                    "adoptionStandard"       : ""
-                    "level"                  : "无星级"
-                    "identifying"            : ""
-                    "projectTime"            : 1970-01-01
-                    "completionTime"         : 1970-01-01
-                    "serviceTime"            : 1970-01-01
-                    "buildingArea"           : ""
-                    "buildingOrientation"    : ""
-                    "remark"                 : ""
-                    "aca"                    : ""
-                    "height"                 : ""
-                    "buildingProperty"       : ""
-                    "cun"                    : ""
-                    "countNumber"            : ""
-                    "number"                 : ""
+                    "id"               : 68
+                    "buildingID"       : 7022
+                    "landArea"         : ""
+                    "buildingArea"     : ""
+                    "subsurfaceArea"   : ""
+                    "groundFloorArea"  : ""
+                    "gas"              : ""
+                    "municipalHeating" : ""
+                    "electricPower"    : ""
+                    "coal"             : ""
+                    "ubadtec"          : ""
+                    "deer"             : ""
+                    "tpi"              : ""
+                    "hvaacsdec"        : ""
+                    "hvaacsdectr"      : ""
+                    "totalWater"       : ""
+                    "ncw"              : ""
+                    "ntwa"             : ""
+                    "blhw"             : ""
+                    "rhc"              : ""
+                    "tpohwgbre"        : ""
+                    "bec"              : ""
+                    "renewableCapacity": ""
+                    "rege"             : ""
                 }
 
 response:
