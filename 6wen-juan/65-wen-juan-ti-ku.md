@@ -28,7 +28,12 @@ response:
 
 ```js
 request body parameter:
-                //服务器将从cookie中获取用户ID
+                {
+                    "setting" : ""  //答题参数数据
+                    "name"    : ""  //答题名称
+                    "type"    : 1   //答题类型
+                    "html"    : ""  //答题页面展示内容
+                }
 
 response:
          success: 
