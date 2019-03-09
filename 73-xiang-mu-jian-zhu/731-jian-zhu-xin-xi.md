@@ -287,7 +287,7 @@ response:
                 }
 ```
 
-> _**www.ibeem.cn/project/single/building/save\_indoor\_info      method: POST       //保持室内环境措施数据**_
+> _**www.ibeem.cn/project/single/building/save\_indoor\_info      method: POST       //保存室内环境措施数据**_
 
 ```js
 request body parameter:
@@ -307,6 +307,36 @@ request body parameter:
                     "inlm"                   : "" 
                     "actcm"                  : "" 
                     "aqcd"                   : "" 
+                }
+
+response:
+         success: 
+                {
+                    "code" :  200
+                }
+            fail: 
+                {
+                    "code" :  1005
+                    "messg": "系统错误"
+                }
+```
+
+> _**www.ibeem.cn/project/single/building/save\_indoor\_parameter\_info   method: POST    //保存室内环境参数设计**_
+
+```js
+request body parameter:
+                {
+                    "buildingID"       : 7022
+                    "functionRoom"     : "" 
+                    "st"               : "" 
+                    "sh"               : "" 
+                    "wt"               : ""
+                    "wh"               : "" 
+                    "fav"              : "" 
+                    "svoi"             : ""
+                    "ugr"              : "" 
+                    "u0"               : "" 
+                    "ra"               : ""
                 }
 
 response:
