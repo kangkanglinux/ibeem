@@ -5,20 +5,26 @@
 ```js
 request body parameter:
                 {
-                    "surveyID"   :  249    //问卷ID
+                    "surveyID"      :  249   //问卷ID
                 }
 
 response:
          success: 
                 {
-                    "code" :  200
+                    "code"          :  200
+                    "createTime"    :  ""    //问卷创建时间
+                    "introduction"  :  ""    //问卷描述
+                    "pagingNum"     :  0     //页数
+                    "pagingType"    :  1
+                    "surveyID"      :  249   //问卷ID
+                    "title"         :  ""    //问卷标题
                     "list" :  [{
-                        "id"          : 216    //问卷ID
-                        "count"       : 0      //答卷数量
-                        "introduction": ""     //问卷介绍
-                        "isFinishd"   : 1      //问卷是否编辑完成（0： 未完成   1： 完成）
-                        "name"        : ""     //问卷创建者名称
-                        "title"       : ""     //问卷标题
+                        "questionID":  451   //答题ID
+                        "required"  :  0
+                        "sequence"  :  1     //答题序列号
+                        "setting"   :  ""    //答题内容
+                        "title"     :  ""    //答题标题
+                        "type"      :  1     //答题类型
                     }...]
                 }
             fail: 
