@@ -57,5 +57,29 @@ response:
                 }
 ```
 
+```js
+//绑定问卷
+request body parameter:
+                {
+                    "projectID"       : 111   //项目ID
+                    "surveyID"        : 23    //问卷ID
+                }
+
+response:
+         success: 
+                {
+                    "code" :  200
+                    "list" :  [{
+                        "id"          :  12       //问卷ID
+                        "title"       :  ""       //问卷标题
+                    }...]
+                }
+            fail: 
+                {
+                    "code" :  1005
+                    "messg": "系统错误"
+                }
+```
+
 
 
