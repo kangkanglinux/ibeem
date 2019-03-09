@@ -73,5 +73,26 @@ response:
                 }
 ```
 
+> _**www.ibeem.cn/project/single/member/set\_manager      method: POST     //设置管理员**_
+
+```js
+request body parameter:
+                {
+                    "projectID"       : 111       //项目ID
+                    "userID"          : ""        //用户ID
+                }
+
+response:
+         success: 
+                {
+                    "code" :  200
+                }
+            fail: 
+                {
+                    "code" :  1005
+                    "messg": "系统错误"
+                }
+```
+
 
 
