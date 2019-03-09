@@ -12,13 +12,20 @@ response:
          success: 
                 {
                     "code" :  200
-                    "project" :  {
-                        "id"          : 157    //项目ID
-                        "decribe"     : ""     //项目描述
-                        "image"       : ""     //项目图片地址
-                        "name"        : ""     //项目名称
-                        "peopleCount" : ""     //项目下用户数                        
-                    }
+                    "list" :  [{
+                        "answerTime"   : ""       //答卷创建时间
+                        "deviceID"     : ""       //绑定设备ID
+                        "deviceName"   : ""       //绑定设备名称
+                        "deviceStatus" : ""       //绑定设备状态
+                        "endTime"      : ""       //测点结束时间
+                        "id"           : 161      //测点ID
+                        "image"        : ""       //测点图片地址
+                        "name"         : "123"    //测点名称
+                        "positionDesc" : "123"    //测点描述
+                        "startTime"    : ""       //测点开始时间
+                        "surveyID"     : ""       //绑定问卷时间 
+                        "surveyTitle"  : ""       //绑定问卷标题 
+                    }...]
                 }
             fail: 
                 {
