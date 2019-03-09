@@ -24,5 +24,33 @@ response:
                 }
 ```
 
+> _**www.ibeem.cn/project/increase        method: POST       //创建项目**_
+
+```js
+request body parameter:
+                //服务器将从cookie中获取用户ID
+                {
+                    "projectName"     : ""     //项目名称
+                    "describe"        : ""     //项目描述
+                    "image"           : ""     //项目图片
+                }
+
+response:
+         success: 
+                {
+                    "code" :  200
+                }
+            fail: 
+                {
+                    "code" :  1005
+                    "messg": "系统错误"
+                }
+                ||
+                {
+                    "code" :  1001
+                    "messg":  "项目名重复"
+                }
+```
+
 
 
