@@ -292,7 +292,21 @@ response:
 ```js
 request body parameter:
                 {
-                    "buildingID"      : 7025   //建筑ID
+                    "buildingID"             : 7022
+                    "naturalVentilation"     : "" 
+                    "naturalLighting"        : "" 
+                    "shade"                  : "" 
+                    "improvedNaturalLighting": ""
+                    "aeoa"                   : "" 
+                    "airQualityControl"      : "" 
+                    "accessibilityFacilities": ""
+                    "nvm"                    : "" 
+                    "voaarfar"               : "" 
+                    "nlsar"                  : ""
+                    "shadingForm"            : "" 
+                    "inlm"                   : "" 
+                    "actcm"                  : "" 
+                    "aqcd"                   : "" 
                 }
 
 response:
