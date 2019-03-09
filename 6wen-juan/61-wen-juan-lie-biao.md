@@ -49,12 +49,12 @@ response:
                     "surveyID"    :  249 //问卷ID
                     "title"       :  ""  //问卷标题
                     "list" :  [{
-                        "questionID":  451    //答题ID
-                        "required":   0
-                        "sequence":   1  //答题序列号
-                        "setting": ""   //答题内容
-                        "title":  ""   //答题标题
-                        "type":  1   //答题类型
+                        "questionID":  451   //答题ID
+                        "required"  :  0
+                        "sequence"  :  1     //答题序列号
+                        "setting"   :  ""    //答题内容
+                        "title"     :  ""    //答题标题
+                        "type"      :  1     //答题类型
                     }...]
                 }
             fail: 
