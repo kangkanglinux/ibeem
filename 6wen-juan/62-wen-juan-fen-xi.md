@@ -39,5 +39,7 @@ response:
                 }
 ```
 
+> www.ibeem.cn/survey/getDimension      method: POST         //获取问卷分析尺度
+
 
 
