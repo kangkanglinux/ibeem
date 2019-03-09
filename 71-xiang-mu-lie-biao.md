@@ -11,12 +11,10 @@ response:
                 {
                     "code" :  200
                     "list" :  [{
-                        "id"          : 216    //问卷ID
-                        "count"       : 0      //答卷数量
-                        "introduction": ""     //问卷介绍
-                        "isFinishd"   : 1      //问卷是否编辑完成（0： 未完成   1： 完成）
-                        "name"        : ""     //问卷创建者名称
-                        "title"       : ""     //问卷标题
+                        "id"          : 216    //项目ID
+                        "decribe"     : ""     //项目描述
+                        "image"       : ""     //项目图片地址
+                        "name"        : ""     //项目名称                        
                     }...]
                 }
             fail: 
