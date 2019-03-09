@@ -38,7 +38,7 @@ response:
             fail: 
                 {
                     "code" :  1005
-                    "messg": "系统错误"
+                    "messg": "系统错误" || "没有此 survey id "
                 }
 ```
 
