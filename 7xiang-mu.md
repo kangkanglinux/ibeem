@@ -10,5 +10,7 @@
 
 * _**www.ibeem.cn/project?project\_name=123&item=building&building\_name=1111&op=info     method: GET  项目建筑信息修改页面**_
 
+* _**www.ibeem.cn/project?project\_name=123&item=building&building\_name=1111&op=point    method: GET   项目建筑测点**_
+
 
 
