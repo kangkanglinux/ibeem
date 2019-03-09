@@ -1,6 +1,6 @@
 ### 建筑信息
 
-> www.ibeem.cn/project/single/building/infomation        method: POST        //获取建筑相关数据
+> _**www.ibeem.cn/project/single/building/infomation        method: POST        //获取建筑相关数据**_
 
 ```js
 request body parameter:
