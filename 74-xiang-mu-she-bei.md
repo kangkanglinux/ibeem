@@ -157,5 +157,25 @@ response:
                 }
 ```
 
+> _**www.ibeem.cn/project/single/device/relieve         method: POST         //接触关注者**_
+
+```js
+request body parameter:
+                {
+                    "deviceID"         :  "1,2" //设备ID  
+                }
+
+response:
+         success: 
+                {
+                    "code" :  200
+                }
+            fail: 
+                {
+                    "code" :  1005
+                    "messg": "系统错误"
+                }
+```
+
 
 
