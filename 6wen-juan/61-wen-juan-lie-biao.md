@@ -100,5 +100,7 @@ response:
                 }
 ```
 
+> _**www.ibeem.cn/survey/delete      method: POST      //删除问卷**_
+
 
 
