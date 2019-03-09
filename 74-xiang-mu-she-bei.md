@@ -114,6 +114,7 @@ response:
 > _**www.ibeem.cn/project/single/device/addAttention          method: POST       //添加关注者**_
 
 ```js
+//获取能成为该项目关注者的用户
 request body parameter:
                 {
                     "projectID"  :  123   //项目ID
@@ -137,20 +138,17 @@ response:
 ```
 
 ```js
+//添加关注者
 request body parameter:
                 {
-                    "projectID"  :  123   //项目ID
+                    "ids"         :  "1,2" //设备ID
+                    "userID"      :  123   //用户ID       
                 }
 
 response:
          success: 
                 {
                     "code" :  200
-                    "user" :  {
-                        "id"      :  123  //用户ID
-                        "name"    :  ""   //用户名称
-                        "portrait":  ""   //用户头像
-                    }
                 }
             fail: 
                 {
