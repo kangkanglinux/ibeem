@@ -44,33 +44,7 @@ response:
                 }
 ```
 
-```js
-device数据说明:
-                [{
-                    "list":  [{
-                        "id"         :   ""    //设备ID
-                        "deviceName" :   ""    //设备名称
-                        "userName"   :   ""    //设备使用者名称
-                        "ownerName"  :   ""    //设备拥有者名称
-                        "latitude"   :   ""    //设备纬度
-                        "longitude"  :   ""    //设备经度
-                        "type"       :   ""    //设备类型
-                        "address"    :   ""    //设备所在地址
-                        "stutas"     :   ""    //设备状态
-                        "waining"    :   ""    //设备告警状态
-                        "description":   ""    //设备描述
-                        "memo"       :   ""    //备注
-                        "pname"      :   ""    //设备绑定项目名称
-                        "gname"      :   ""    //设备关注者名称
-                        "cname"      :   ""    //设备绑定测点名称
-                        "bname"      :   ""    //设备绑定建筑名称
-                     }..]
-                     "pageNo"  : ""    //所在页数
-                     "amount"  : 600   //设备总数量
-                     "maxPage" : 12    //总页数
-                     "pageSize": 50    //每页展示设备数
-                }...]
-```
+
 
 > _**www.ibeem.cn/device/status            method: POST        //获取设备状态**_
 
