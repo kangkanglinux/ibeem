@@ -10,6 +10,12 @@ response:
          success: 
                 {
                     "code"   :  200
+                    "list"   :  [{
+                        "id"     :  1   //答题ID
+                        "type"   :  ""  //答题类型
+                        "setting":  ""  //答题内容
+                        "title"  :  ""  //答题标题
+                    }...]
                 }
             fail: 
                 {
