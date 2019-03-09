@@ -111,7 +111,7 @@ response:
 >
 > _**www.ibeem.cn/project/single/device/attention                  method: POST        //获取能成为该项目关注者的用户**_
 >
-> _**www.ibeem.cn/project/single/device/addAttention          method: POST       //添加关注者**_
+> _**www.ibeem.cn/project/single/device/addAttention          method: POST        //添加关注者**_
 
 ```js
 //获取能成为该项目关注者的用户
