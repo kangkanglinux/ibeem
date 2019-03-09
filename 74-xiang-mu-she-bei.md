@@ -66,5 +66,27 @@ response:
                 }
 ```
 
+```js
+//添加设备
+request body parameter:
+                //服务器将从cookie中获取用户ID
+
+
+response:
+         success: 
+                {
+                    "code" :  200
+                    "list" :  [{
+                        "id"   : 10    //设备ID
+                        "name" : ""    //设备名称
+                    }...]
+                }
+            fail: 
+                {
+                    "code" :  1005
+                    "messg": "系统错误"
+                }
+```
+
 
 
