@@ -1,6 +1,6 @@
 ### 问卷成员
 
-> _**www.ibeem.cn/project/single/member                method: POST            //获取项目成员**_
+> _**www.ibeem.cn/project/single/member                                   method: POST            //获取项目成员**_
 
 ```js
 request body parameter:
@@ -26,7 +26,7 @@ response:
                 }
 ```
 
-> _**www.ibeem.cn/project/single/member/search        method: POST        //搜索用户**_
+> _**www.ibeem.cn/project/single/member/search                      method: POST        //搜索用户**_
 
 ```js
 request body parameter:
@@ -52,7 +52,7 @@ response:
                 }
 ```
 
-> _**www.ibeem.cn/project/single/member/add          method: POST        //添加成员**_
+> _**www.ibeem.cn/project/single/member/add                            method: POST        //添加成员**_
 
 ```js
 request body parameter:
@@ -73,7 +73,7 @@ response:
                 }
 ```
 
-> _**www.ibeem.cn/project/single/member/set\_manager      method: POST     //设置管理员**_
+> _**www.ibeem.cn/project/single/member/set\_manager              method: POST     //设置管理员**_
 
 ```js
 request body parameter:
@@ -93,6 +93,8 @@ response:
                     "messg": "系统错误"
                 }
 ```
+
+> _**www.ibeem.cn/project/single/member/manager\_revocation   method: POST     //取消管理员**_
 
 
 
