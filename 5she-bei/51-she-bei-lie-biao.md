@@ -11,7 +11,7 @@ request body parameter:
 response:
          success: 
                 {
-                    "code"           :  200
+                    "code"   :  200
                     "list": [{
                         "id"         : "" //设备ID
                         "deviceName" : "" //设备名称
@@ -37,8 +37,8 @@ response:
                 }
             fail: 
                 {
-                    "code"           :  1005
-                    "messg"          : "系统错误"
+                    "code"   :  1005
+                    "messg"  : "系统错误"
                 }
 ```
 
