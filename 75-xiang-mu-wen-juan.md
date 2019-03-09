@@ -35,7 +35,6 @@ response:
 
 ```js
 //搜索该项目能绑定的问卷
-
 request body parameter:
                 {
                     "projectID"       : 111   //项目ID
