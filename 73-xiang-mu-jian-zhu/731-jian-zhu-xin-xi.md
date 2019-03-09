@@ -167,5 +167,125 @@ response:
                 }
 ```
 
+> _**www.ibeem.cn/project/single/building/save\_energy\_info     method: POST       //保持节能措施**_
+
+```js
+request body parameter:
+                {
+                    "buildingID"             : 7022
+                    "owccbo"                 : "" 
+                    "ehr"                    : "" 
+                    "awr"                    : "" 
+                    "pces"                   : "" 
+                    "erStandard"             : "" 
+                    "wsStandard"             : "" 
+                    "whwhu"                  : "" 
+                    "itemizedMetering"       : "" 
+                    "cchp"                   : "" 
+                    "reu"                    : "" 
+                    "ltv"                    : "" 
+                    "lightingControl"        : "" 
+                    "egceas"                 : "" 
+                    "esee"                   : "" 
+                    "csh"                    : "" 
+                    "vvf"                    : "" 
+                    "csf"                    : "" 
+                    "tfotds"                 : "" 
+                    "endSystem"              : "" 
+                    "totalCapacity"          : "" 
+                    "rqi"                    : "" 
+                    "totalHeat"              : "" 
+                    "ci"                     : "" 
+                    "cop"                    : "" 
+                    "eer"                    : ""
+                    "iplv"                   : "" 
+                    "bte"                    : "" 
+                    "ws"                     : "" 
+                    "ewK"                    : "" 
+                    "rk"                     : "" 
+                    "exteriorWindowK"        : "" 
+                    "exteriorWindowSC"       : "" 
+                    "buildingOrientation"    : ""  
+                    "owcoar"                 : "" 
+                    "tcwcoar"                : "" 
+                    "dohss"                  : "" 
+                    "ehrf"                   : "" 
+                    "nwats"                  : "" 
+                    "potwcesm"               : "" 
+                    "whwhsd"                 : "" 
+                    "cchpSystemDesign"       : ""  
+                    "reuf"                   : "" 
+                    "sk"                     : "" 
+                    "ssc"                    : "" 
+                    "wwr"                    : "" 
+                    "sp"                     : "" 
+                    "acscwst"                : "" 
+                    "accwrt"                 : "" 
+                    "achawst"                : "" 
+                    "achwrt"                 : "" 
+                    "owccbo"                 : "" 
+                    "ehr"                    : "" 
+                    "awr"                    : "" 
+                    "pces"                   : "" 
+                    "erStandard"             : "" 
+                    "wsStandard"             : "" 
+                    "whwhu"                  : "" 
+                    "itemizedMetering"       : ""  
+                    "cchp"                   : "" 
+                    "reu"                    : "" 
+                    "ltv"                    : "" 
+                    "lightingControl"        : "" 
+                    "egceas"                 : "" 
+                    "esee"                   : "" 
+                    "csh"                    : "" 
+                    "vvf"                    : ""  
+                    "csf"                    : "" 
+                    "tfotds"                 : "" 
+                    "endSystem"              : "" 
+                    "totalCapacity"          : "" 
+                    "rqi"                    : "" 
+                    "totalHeat"              : "" 
+                    "ci"                     : "" 
+                    "cop"                    : "" 
+                    "eer"                    : "" 
+                    "iplv"                   : "" 
+                    "bte"                    : "" 
+                    "ws"                     : "" 
+                    "ewK"                    : "" 
+                    "rk"                     : "" 
+                    "exteriorWindowK"        : "" 
+                    "exteriorWindowSC"       : "" 
+                    "buildingOrientation"    : "" 
+                    "owcoar"                 : "" 
+                    "tcwcoar"                : "" 
+                    "dohss"                  : "" 
+                    "ehrf"                   : "" 
+                    "nwats"                  : "" 
+                    "potwcesm"               : "" 
+                    "whwhsd"                 : "" 
+                    "cchpSystemDesign"       : "" 
+                    "reuf"                   : "" 
+                    "sk"                     : "" 
+                    "ssc"                    : "" 
+                    "wwr"                    : "" 
+                    "sp"                     : "" 
+                    "acscwst"                : "" 
+                    "accwrt"                 : "" 
+                    "achawst"                : "" 
+                    "achwrt"                 : "" 
+                }
+
+response:
+         success: 
+                {
+                    "code" :  200
+                }
+            fail: 
+                {
+                    "code" :  1005
+                    "messg": "系统错误"
+                }
+```
+
 
 
