@@ -351,5 +351,41 @@ response:
                 }
 ```
 
+> _**www.ibeem.cn/project/single/building/save\_water\_info     method: POST       //保存节水设计**_
+
+```js
+request body parameter:
+                {
+                    "id"                      : 92
+                    "buildingID"              : 7022
+                    "rainWaterSavings"        : ""
+                    "rainwaterRecycling"      : ""
+                    "municipalWater"          : ""
+                    "homemadeWater"           : ""
+                    "com"                     : ""
+                    "waterSavingIrrigation"   : ""
+                    "coolingWaterConservation": ""
+                    "rainwaterSavingMeasure"  : ""
+                    "uorfr"                   : ""
+                    "usow"                    : ""
+                    "ntsowu"                  : ""
+                    "fowsi"                   : ""
+                    "rainWaterReturn"         : ""
+                    "wawc"                    : ""
+                    "ntwa"                    : ""
+                }
+
+response:
+         success: 
+                {
+                    "code" :  200
+                }
+            fail: 
+                {
+                    "code" :  1005
+                    "messg": "系统错误"
+                }
+```
+
 
 
