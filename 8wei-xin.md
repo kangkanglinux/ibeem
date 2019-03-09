@@ -12,5 +12,11 @@
 
 * _**www.ibeem.cn/weixin/index?item=room                  method: GET              微信Room页面展示**_
 
+* _**www.ibeem.cn/weixin/survey                                    method: GET               微信问卷首页**_
+
+* _**www.ibeem.cn/weixin/survey/answer                      method: GET               微信答卷页面**_
+
+* _**www.ibeem.cn/weixin/survey/dimension                method: GET                微信维度页面**_
+
 
 
