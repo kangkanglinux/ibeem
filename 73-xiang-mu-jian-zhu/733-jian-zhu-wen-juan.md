@@ -51,5 +51,30 @@ response:
                 }
 ```
 
+> _**www.ibeem.cn/project/single/building/survey\_bind      method: POST         //建筑绑定问卷**_
+
+```js
+request body parameter:
+                {
+                    "buildingID"      :  7027   //建筑ID
+                    "surveyID"        :  123    //问卷ID
+                }
+
+response:
+         success: 
+                {
+                    "code" :  200
+                    "list" :  [{
+                        "id"          : ""     //问卷ID
+                        "title"       : ""     //问卷标题
+                    }...]
+                }
+            fail: 
+                {
+                    "code" :  1005
+                    "messg": "系统错误"
+                }
+```
+
 
 
