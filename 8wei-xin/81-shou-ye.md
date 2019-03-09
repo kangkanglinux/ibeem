@@ -27,5 +27,29 @@ response:
 
 > _**www.ibeem.cn/weixin/device/addAttention        method: POST        //关注设备**_
 
+```js
+request body parameter:
+                {
+                    "deviceID"    :   ""  //设备ID
+                }
+
+response:
+         success: 
+                {
+                    "code" :  200
+                    "devicelist" :  [{
+                        "id"        :  ""       //评估数据ID
+                        "device_id" :  ""       //设备ID
+                        "content"   :  ""       //评估内容 
+                        "created_on":  ""       //创建时间                 
+                    }...]
+                }
+            fail: 
+                {
+                    "code" :  1005
+                    "messg":  "未知错误"
+                }
+```
+
 
 
