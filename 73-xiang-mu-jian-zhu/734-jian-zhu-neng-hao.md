@@ -58,5 +58,25 @@ response:
                 }
 ```
 
+> _**www.ibeem.cn/project/single/building/energy\_update      method: POST        //更新建筑能耗数据**_
+
+```js
+request body parameter:
+                {
+                    "buildingID"      :  157   //建筑ID
+                }
+
+response:
+         success: 
+                {
+                    "code" :  200
+                }
+            fail: 
+                {
+                    "code" :  1005
+                    "messg": "系统错误"
+                }
+```
+
 
 
