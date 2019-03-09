@@ -65,11 +65,6 @@ response:
          success: 
                 {
                     "code" :  200
-                    "arrayList" :  [{
-                        "id"          :  12       //成员ID
-                        "name"        :  ""       //成员名称
-                        "portrait"    :  ""       //成员肖像
-                    }...]
                 }
             fail: 
                 {
