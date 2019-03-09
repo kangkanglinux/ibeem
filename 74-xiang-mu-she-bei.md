@@ -90,8 +90,8 @@ response:
 
 ```js
 request body parameter:
+                //服务器将从cookie中获取用户ID
                 {
-                    "projectID":  123   //项目ID
                     "ids"      :  "1,2" //设备ID
                 }
 
