@@ -14,5 +14,9 @@
 
 * _**www.ibeem.cn/project?project\_name=123&item=building&building\_name=1111&op=point&go=detail     method: GET  项目建筑测点详情**_
 
+* _**www.ibeem.cn/project?project\_name=123&item=survey         method: GET              项目问卷页面**_
+
+* _**www.ibeem.cn/project?project\_name=123&item=member      method: GET              项目成员页面**_
+
 
 

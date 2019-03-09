@@ -33,4 +33,5 @@
   * [7.4 项目设备](74-xiang-mu-she-bei.md)
   * [7.5 项目问卷](75-xiang-mu-wen-juan.md)
   * [7.6 问卷成员](76-wen-juan-cheng-yuan.md)
+* [8.微信](8wei-xin.md)
 
