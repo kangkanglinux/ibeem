@@ -42,9 +42,6 @@ response:
                     "list" :  [{
                         "id"          : ""     //问卷ID
                         "title"       : ""     //问卷标题
-                        "introduction": ""     //问卷介绍 
-                        "name"        : ""     //问卷创建者名称
-                        "count"       : 12     //问卷答卷数
                     }...]
                 }
             fail: 
