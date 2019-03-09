@@ -96,5 +96,45 @@ response:
 
 > _**www.ibeem.cn/project/single/member/manager\_revocation   method: POST     //取消管理员**_
 
+```js
+request body parameter:
+                {
+                    "projectID"       : 111       //项目ID
+                    "userID"          : ""        //用户ID
+                }
+
+response:
+         success: 
+                {
+                    "code" :  200
+                }
+            fail: 
+                {
+                    "code" :  1005
+                    "messg": "系统错误"
+                }
+```
+
+> _**www.ibeem.cn/project/single/member/delete            method: POST           //删除成员**_
+
+```js
+request body parameter:
+                {
+                    "projectID"       : 111       //项目ID
+                    "userID"          : ""        //用户ID
+                }
+
+response:
+         success: 
+                {
+                    "code" :  200
+                }
+            fail: 
+                {
+                    "code" :  1005
+                    "messg": "系统错误"
+                }
+```
+
 
 
