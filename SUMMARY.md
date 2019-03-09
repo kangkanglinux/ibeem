@@ -25,4 +25,5 @@
 * [7.项目](7xiang-mu.md)
   * [7.1 项目列表](71-xiang-mu-lie-biao.md)
   * [7.2 项目信息](72-xiang-mu-xin-xi.md)
+  * [7.3 项目建筑](73-xiang-mu-jian-zhu.md)
 
