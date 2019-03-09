@@ -26,6 +26,7 @@
   * [7.1 项目列表](71-xiang-mu-lie-biao.md)
   * [7.2 项目信息](72-xiang-mu-xin-xi.md)
   * [7.3 项目建筑](73-xiang-mu-jian-zhu.md)
+    * [7.3.1 建筑信息](73-xiang-mu-jian-zhu/731-jian-zhu-xin-xi.md)
   * [7.4 项目设备](74-xiang-mu-she-bei.md)
   * [7.5 项目问卷](75-xiang-mu-wen-juan.md)
   * [7.6 问卷成员](76-wen-juan-cheng-yuan.md)
