@@ -102,5 +102,23 @@ response:
 
 > _**www.ibeem.cn/survey/delete      method: POST      //删除问卷**_
 
+```js
+request body parameter:
+                {
+                    "surveyID" :  123   //问卷ID
+                }
+
+response:
+         success: 
+                {
+                    "code"     :  200
+                }
+            fail: 
+                {
+                    "code"     :  1005
+                    "messg"    : "系统错误"
+                }
+```
+
 
 
