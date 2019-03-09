@@ -10,7 +10,14 @@ response:
          success: 
                 {
                     "code" :  200
-                    "list" :  device    //所在页面下设备信息
+                    "list" :  [{
+                        "id":    216    //问卷ID
+                        "count": 0      //答卷数量
+                        "introduction": "" //问卷介绍
+                        "isFinishd": 1   //问卷是否编辑完成（0： 未完成   1： 完成）
+                        "name": ""       //问卷创建者名称
+                        "title": ""       //问卷标题
+                    }...]
                 }
             fail: 
                 {
