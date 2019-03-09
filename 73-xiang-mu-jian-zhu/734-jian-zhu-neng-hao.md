@@ -5,7 +5,7 @@
 ```js
 request body parameter:
                 {
-                    "buildingID"       :  157   //建筑ID
+                    "buildingID"      :  157   //建筑ID
                 }
 
 response:
@@ -25,7 +25,6 @@ response:
                     "code" :  1005
                     "messg": "系统错误"
                 }
-
 ```
 
 
