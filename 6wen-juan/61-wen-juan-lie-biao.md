@@ -33,7 +33,7 @@ response:
 > _**www.ibeem.cn/survey/download/answer         method: POST        //获取问卷答卷**_
 
 ```js
-/survey/download/question
+//获取问卷答题
 
 request body parameter:
                 //服务器将从cookie中获取用户ID
