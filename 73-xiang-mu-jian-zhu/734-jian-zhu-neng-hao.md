@@ -63,7 +63,42 @@ response:
 ```js
 request body parameter:
                 {
-                    "buildingID"      :  157   //建筑ID
+                    "buildingID"      : 7022
+                    "aeu"             : ""
+                    "elecDs"          : ""
+                    "elecComment"     : ""
+                    "secEs"           : ""
+                    "secAu"           : ""
+                    "secDs"           : ""
+                    "secComment"      : ""
+                    "thiEs"           : ""
+                    "thiAu"           : ""
+                    "thiDs"           : ""
+                    "thiComment"      : ""
+                    "fouEs"           : ""
+                    "fouAu"           : ""
+                    "fouDs"           : ""
+                    "fouComment"      : ""
+                    "siteSource"      : ""
+                    "siteAu"          : ""
+                    "siteSd"          : ""
+                    "siteDs"          : ""
+                    "siteComment"     : ""
+                    "siteChpMm"       : ""
+                    "siteChpFs"       : ""
+                    "siteChpRp"       : ""
+                    "siteChpAfc"      : ""
+                    "siteChpAeg"      : ""
+                    "siteChpAhg"      : ""
+                    "siteChpComment"  : ""
+                    "seuDesc"         : ""
+                    "seuPs"           : ""
+                    "seuAeu"          : ""
+                    "seuComment"      : ""
+                    "ohWd"            : ""
+                    "nwd"             : ""
+                    "ohHd"            : ""
+                    "nhd"             : ""
                 }
 
 response:
