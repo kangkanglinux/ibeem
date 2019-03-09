@@ -39,7 +39,7 @@ response:
 ```js
 request body parameter:
                 {
-                    "buildingID"      :  7027  //建筑ID
+                    "buildingPointID"  :  7027    //建筑测点ID
                 }
 
 response:
