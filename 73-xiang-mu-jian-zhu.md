@@ -56,7 +56,7 @@ response:
                 }
 ```
 
-> www.ibeem.cn/
+> _**www.ibeem.cn/project/single/building/delete       method: POST        //删除建筑**_
 
 
 
