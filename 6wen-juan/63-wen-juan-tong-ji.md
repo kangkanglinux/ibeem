@@ -9,7 +9,7 @@ request body parameter:
                     "beginTime"          :  ""    //开始时间
                     "endTime"            :  ""    //结束时间
                     "relation"           :  1     //问卷与项目，建筑，测点关系(1: 问卷绑定项目  2：问卷绑定建筑  3：问卷绑定测点)
-
+                    "objectID"           :  -1    //建筑或项目或测点ID
                 }
 
 response:
