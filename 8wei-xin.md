@@ -1,5 +1,7 @@
 # 微信
 
+* _**www.ibeem.cn/weixin/index                                        methos: GET             设备列表展示（当用户未登录会跳转到登录界面）**_
+
 * _**www.ibeem.cn/weixin/index?item=realtime               method: GET             微信实时数据展示**_
 
 * _**www.ibeem.cn/weixin/index?item=detail                   method: GET             微信设备信息展示**_
