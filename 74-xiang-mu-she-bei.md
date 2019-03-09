@@ -116,13 +116,18 @@ response:
 ```js
 request body parameter:
                 {
-                    "projectID"      :  123   //项目ID
+                    "projectID"  :  123   //项目ID
                 }
 
 response:
          success: 
                 {
                     "code" :  200
+                    "user" :  {
+                        "id"      :  123  //用户ID
+                        "name"    :  ""   //用户名称
+                        "portrait":  ""   //用户头像
+                    }
                 }
             fail: 
                 {
