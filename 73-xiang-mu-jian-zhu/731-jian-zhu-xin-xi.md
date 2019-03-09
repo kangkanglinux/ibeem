@@ -5,7 +5,7 @@
 ```js
 request body parameter:
                 {
-                    "projectID"       :  157   //项目ID
+                    "buildingID"      : 7025   //建筑ID
                 }
 
 response:
