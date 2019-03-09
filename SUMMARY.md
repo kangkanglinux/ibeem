@@ -18,4 +18,5 @@
 * [6.问卷](6wen-juan.md)
   * [6.1 问卷列表](6wen-juan/61-wen-juan-lie-biao.md)
   * [6.2 问卷分析](6wen-juan/62-wen-juan-fen-xi.md)
+  * [6.3 问卷统计](6wen-juan/63-wen-juan-tong-ji.md)
 
