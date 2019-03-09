@@ -29,7 +29,7 @@
     * [7.3.1 建筑信息](73-xiang-mu-jian-zhu/731-jian-zhu-xin-xi.md)
     * [7.3.2 建筑测点](73-xiang-mu-jian-zhu/732-jian-zhu-ce-dian.md)
     * [7.3.3 建筑问卷](73-xiang-mu-jian-zhu/733-jian-zhu-wen-juan.md)
-    * 7.3.4 建筑能耗
+    * [7.3.4 建筑能耗](73-xiang-mu-jian-zhu/734-jian-zhu-neng-hao.md)
   * [7.4 项目设备](74-xiang-mu-she-bei.md)
   * [7.5 项目问卷](75-xiang-mu-wen-juan.md)
   * [7.6 问卷成员](76-wen-juan-cheng-yuan.md)
