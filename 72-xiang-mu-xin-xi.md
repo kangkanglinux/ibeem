@@ -87,5 +87,7 @@ response:
                 }
 ```
 
+> www.ibeem.cn/project/single/update     method: POST     //项目信息跟新
+
 
 
