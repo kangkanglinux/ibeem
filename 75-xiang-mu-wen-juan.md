@@ -27,5 +27,34 @@ response:
                 }
 ```
 
+> _**绑定问卷**_
+>
+> _**www.ibeem.cn/project/single/survey/search        method: POST           //搜索该项目能绑定的问卷**_
+>
+> _**www.ibeem.cn/project/single/survey/bind             method:POST           //绑定问卷**_
+
+```js
+request body parameter:
+                {
+                    "projectID"       : 111   //项目ID
+                    "surveyID"        : 23    //问卷ID
+                }
+
+response:
+         success: 
+                {
+                    "code" :  200
+                    "list" :  [{
+                        "id"          :  12       //问卷ID
+                        "title"       :  ""       //问卷标题
+                    }...]
+                }
+            fail: 
+                {
+                    "code" :  1005
+                    "messg": "系统错误"
+                }
+```
+
 
 
