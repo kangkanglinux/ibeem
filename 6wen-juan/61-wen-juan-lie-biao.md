@@ -26,5 +26,11 @@ response:
                 }
 ```
 
+> _**下载答卷功能实现：**_
+
+> _**www.ibeem.cn/survey/download/question        method: POST         //获取问卷答题**_
+
+> _**www.ibeem.cn/survey/download/answer         method: POST        //获取问卷答卷**_
+
 
 
