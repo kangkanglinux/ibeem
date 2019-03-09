@@ -24,4 +24,5 @@
   * [6.6 修改问卷](6wen-juan/66-xiu-gai-wen-juan.md)
 * [7.项目](7xiang-mu.md)
   * [7.1 项目列表](71-xiang-mu-lie-biao.md)
+  * [7.2 项目信息](72-xiang-mu-xin-xi.md)
 
