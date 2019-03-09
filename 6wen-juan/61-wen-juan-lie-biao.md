@@ -81,10 +81,16 @@ request body parameter:
 response:
          success: 
                 {
-                    "code"          :  200
+                    "code"              :  200
                     "list" :  [{
-                        "ip": ""  //答题设备ip
-                        "time": ""  //答题时间
+                        "ip"            :  ""  //答题设备ip
+                        "time"          :  ""  //答题时间
+                        "surveyRelation":  2   //问卷与项目，建筑，测点关系
+                        "name"          :  ""  //答题名称
+                        "answers": [{
+                            "content"   :  ""  //答卷内容
+                            "questionid":  451 //答题ID
+                        }...]
                     }...]
                 }
             fail: 
