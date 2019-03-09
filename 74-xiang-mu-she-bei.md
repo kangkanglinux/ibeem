@@ -86,5 +86,26 @@ response:
                 }
 ```
 
+> _**www.ibeem.cn/project/single/device/recycle      method: POST        //回收设备**_
+
+```js
+request body parameter:
+                {
+                    "projectID":  123   //项目ID
+                    "ids"      :  "1,2" //设备ID
+                }
+
+response:
+         success: 
+                {
+                    "code" :  200
+                }
+            fail: 
+                {
+                    "code" :  1005
+                    "messg": "系统错误"
+                }
+```
+
 
 
