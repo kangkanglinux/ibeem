@@ -138,7 +138,25 @@ response:
                 }
 ```
 
-> www.ibeem.cn/admin
+> _**www.ibeem.cn/admin/device/add                 method: POST                //管理员添加设备**_
+
+```js
+request body parameter:
+                {
+                    "name": ""  //搜索字符串
+                }
+response:
+         success: 
+                {
+                    "code"   :  200
+                    "id"     :  1234    //设备存入数据库ID
+                }
+            fail: 
+                {
+                    "code" :  1005
+                    "messg": "系统错误"
+                }
+```
 
 
 
