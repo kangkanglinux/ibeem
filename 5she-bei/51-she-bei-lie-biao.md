@@ -166,21 +166,22 @@ response:
 ```js
 request body parameter:
                 {
-                    "deviceid"  : ""       //设备ID
-                    "name"      : ""       //设备名称
-                    "type"      : ""       //设备类型
-                    "physicalId": ""       //设备MAC
+                    "files"     : ""       //要导入的文件
                 }
 response:
          success: 
                 {
                     "code"      :  200
-                    "id"        :  1234    //设备存入数据库ID
                 }
             fail: 
                 {
-                    "code" :  1005
-                    "messg": "系统错误"
+                    "code" :  1000
+                    "messg": "文件无数据"
+                }
+                ||
+                {
+                    "code" :  1001
+                    "messg":  "文件格式错误"
                 }
 ```
 
