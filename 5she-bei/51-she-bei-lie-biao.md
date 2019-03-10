@@ -143,13 +143,16 @@ response:
 ```js
 request body parameter:
                 {
-                    "name": ""  //搜索字符串
+                    "deviceid"  : ""       //设备ID
+                    "name"      : ""       //设备名称
+                    "type"      : ""       //设备类型
+                    "physicalId": ""       //设备MAC
                 }
 response:
          success: 
                 {
-                    "code"   :  200
-                    "id"     :  1234    //设备存入数据库ID
+                    "code"      :  200
+                    "id"        :  1234    //设备存入数据库ID
                 }
             fail: 
                 {
