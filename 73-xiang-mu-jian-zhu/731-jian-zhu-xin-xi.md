@@ -387,5 +387,31 @@ response:
                 }
 ```
 
+> _**www.ibeem.cn/project/single/topBuilding        method: POST             //获取Top建筑数据**_
+
+```js
+request body parameter:
+                {
+                    "buildingID"      : 1314  //Top建筑ID
+                }
+
+response:
+         success: 
+                {
+                    "code" :  200
+                    "list" :  [{
+                        "id"          : 216    //项目ID
+                        "decribe"     : ""     //项目描述
+                        "image"       : ""     //项目图片地址
+                        "name"        : ""     //项目名称                        
+                    }...]
+                }
+            fail: 
+                {
+                    "code" :  1005
+                    "messg": "系统错误"
+                }
+```
+
 
 
